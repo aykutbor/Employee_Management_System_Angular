@@ -1,0 +1,23 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Sola hizalama */
+    justify-content: center;
+    margin: 20 auto; /* Ekranın ortasında hizalama */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 700px; /* Formun genişliğini ayarlayın */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Elemanlar arasına boşluk ekleme */
+    width: 100%; /* Form elemanlarının tam genişlikte olması için */
+  }
+  
+  button {
+    margin-top: 20px; /* Butonun yukarısında boşluk oluşturur */
+    align-self: center; /* Butonu ortalar */
+    width: 100%; /* Butonun tam genişlikte olması için */
+  }
+  
